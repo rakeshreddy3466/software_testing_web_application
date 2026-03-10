@@ -26,3 +26,4 @@ def test_product_details_page(driver):
     
     assert availability_label.is_displayed(), "'Availability' information is not visible on the details page."
     assert brand_label.is_displayed(), "'Brand' information is not visible on the details page."
+    
